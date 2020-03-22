@@ -1,0 +1,9 @@
+public class Vereinveraltung
+{
+  private Verein[] zVereine;
+  
+  public Vereinverwaltung()
+  {
+    zVereine = new Verein[18];
+  }
+}
