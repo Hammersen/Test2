@@ -1,0 +1,4 @@
+public class Verein
+{
+  private String zName;
+}
