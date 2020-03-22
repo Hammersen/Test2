@@ -1,4 +1,14 @@
 public class Verein
 {
   private String zName;
+  
+  public Verein(String pName)
+  {
+    zName = pName;
+  }
+  
+  public String gibName()
+  {
+    return zName;
+  }
 }
