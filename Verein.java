@@ -1,3 +1,7 @@
+/**
+* @author T. Hammersen
+* @version April 2020
+*/
 public class Verein
 {
   private String zName;
@@ -7,5 +11,15 @@ public class Verein
   {
     zName = pName;
     zGruendungsjahr = pGruendungsjahr;
+  }
+  
+  public String gibName()
+  {
+	  return zName;
+  }  
+  
+  public int gibGruendungsjahr()
+  {
+	  return zGruendungsjahr;
   }
 }
