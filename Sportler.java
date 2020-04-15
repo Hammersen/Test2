@@ -3,7 +3,7 @@ public class Sportler
 	private String zName;
 	private String zVorname;
 	
-	public Sportler
+	public Sportler(String pName, String pVorname)
 	{
 		zName = pName;
 		zVorname = pVorname;

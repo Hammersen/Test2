@@ -1,9 +1,9 @@
 public class Verein
 {
   private String zName;
-  private int zGruedungsjahr;
+  private int zGruendungsjahr;
   
-  public Verein(String pName)
+  public Verein(String pName, int pGruendungsjahr)
   {
     zName = pName;
     zGruendungsjahr = pGruendungsjahr;
